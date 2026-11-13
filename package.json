@@ -4,9 +4,9 @@
   "private": true,
   "description": "Portfolio of Prince Abia, art director and brand designer.",
   "scripts": {
-    "dev": "serve . -l 3000",
-    "start": "serve . -l 3000",
-    "build": "echo \"Static site: no build step needed\""
+    "dev": "serve public -l 3000",
+    "start": "serve public -l 3000",
+    "build": "echo \"Static site: files are served from public/\""
   },
   "devDependencies": {
     "serve": "^14.2.4"
